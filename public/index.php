@@ -16,6 +16,7 @@ require __DIR__.'/../app/controllers/ProductController.class.php';
 require __DIR__.'/../app/controllers/CartController.class.php';
 require __DIR__.'/../app/controllers/ErrorController.class.php';
 
+
 // 3 - faire le routage ! c'est à dire appeler la bonne méthode sur le bon controller en fonction de l'url ciblée
 
 /** Version routage à la main => trop limité ! */

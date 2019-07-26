@@ -112,13 +112,13 @@
           <div class="col-md-6">
             <ul class="list-inline mb-0 mt-2 mt-md-0 text-center text-md-right">
               <li class="list-inline-item">
-                <img src="images/visa.svg" alt="..." class="payment-icon">
+                <img src="assets/images/visa.svg" alt="..." class="payment-icon">
               </li>
               <li class="list-inline-item">
-                <img src="images/mastercard.svg" alt="..." class="payment-icon">
+                <img src="assets/images/mastercard.svg" alt="..." class="payment-icon">
               </li>
               <li class="list-inline-item">
-                <img src="images/paypal.svg" alt="..." class="payment-icon">
+                <img src="assets/images/paypal.svg" alt="..." class="payment-icon">
               </li>
             </ul>
           </div>
@@ -128,11 +128,11 @@
   </footer>
 
   <!-- JS -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/app.js"></script>
+  <script src="<?= $publicLink ?>/assets/js/jquery.min.js"></script>
+  <script src="<?= $publicLink ?>/assets/js/popper.min.js"></script>
+  <script src="<?= $publicLink ?>/assets/js/bootstrap.min.js"></script>
+  <script src="<?= $publicLink ?>/assets/js/owl.carousel.min.js"></script>
+  <script src="<?= $publicLink ?>/assets/js/app.js"></script>
 </body>
 
 </html>

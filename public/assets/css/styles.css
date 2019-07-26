@@ -1,4 +1,10 @@
 
+body {
+
+  background-color: black;
+}
+
+
 a {
   color: rgba(0,0,0,.7);
 }
@@ -8,10 +14,12 @@ a:hover {
 
 a.navbar-brand {  /* TITRE oShop   */
   font-weight: bold;
-  /* : ; */
+  
 }
 
-
+img.payment-icon {
+  width: 25px;
+}
 
 
 
