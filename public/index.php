@@ -48,7 +48,8 @@ $router = new AltoRouter();
 
 // on rensienge l'option basePath comme indiqué dans la doc
 // cf. http://altorouter.com/usage/rewrite-requests.html
-$router->setBasePath('/universe/S05/S05-E03-oShop-SimonMARTIN87/public');
+
+$router->setBasePath($_SERVER['BASE_URI']);
 
 // première étape : mapper les routes
 $router->map('GET', '/', 'MainController#home');

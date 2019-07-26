@@ -1,0 +1,21 @@
+
+a {
+  color: rgba(0,0,0,.7);
+}
+a:hover {
+  color: rgba(0,0,0,.6);
+}
+
+a.navbar-brand {  /* TITRE oShop   */
+  font-weight: bold;
+  /* : ; */
+}
+
+
+
+
+
+
+.card.border-0.text-white.text-center {
+  margin-bottom: 2em;
+}
