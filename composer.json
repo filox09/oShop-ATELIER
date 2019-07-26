@@ -1,0 +1,13 @@
+{
+    "name": "universe/oshop",
+    "authors": [
+        {
+            "name": "simonMARTIN87",
+            "email": "simon@oclock.io"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^4.3",
+        "altorouter/altorouter": "^1.2"
+    }
+}
