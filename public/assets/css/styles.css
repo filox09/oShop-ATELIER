@@ -1,29 +1,71 @@
-
-body {
-
-  background-color: black;
-}
-
-
 a {
   color: rgba(0,0,0,.7);
 }
 a:hover {
   color: rgba(0,0,0,.6);
 }
-
+i.fa.fa-search {
+  padding-right: 1em;
+}
 a.navbar-brand {  /* TITRE oShop   */
   font-weight: bold;
   
 }
 
-img.payment-icon {
-  width: 25px;
+li.nav-item {
+  text-transform: uppercase;
 }
 
+.row.d-flex.align-items-center {
 
-
+  background-color: #F8F9FA;
+  padding: 5px;
+}
 
 .card.border-0.text-white.text-center {
   margin-bottom: 2em;
+}
+/* FOOTER SERVICES */
+
+#footer-services {
+  background-color: #F8F9FA;
+  
+
+}
+#footer-services i {
+
+  font-size: 3em;
+  float: left;
+  margin-right: 5%;
+  padding-right: 5%;
+  border-right: 1px solid #DDE1E5;
+  
+}
+
+p.text-muted.font-weight-light.text-sm.mb-0 {
+
+  font-size: 12px;
+}
+
+
+/* FOOTER MENU */
+div#footer-menu {
+
+  background-color: #DDE1E5;
+}
+div#footer-menu h6{
+
+  font-weight: bold;
+} 
+/* FOOTER COPYRIGHT */
+div#footer-copyright {
+
+  background-color:#373C42;
+  height: 50px;
+  text-align: center;
+  padding-top: 2px;
+  color: white;
+}
+img.payment-icon {
+  width: 25px;
 }

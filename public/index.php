@@ -1,7 +1,7 @@
 <?php
 
 // Nouveauté composer : on peut require toutes les dépendances d'un seul coup
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__."/../vendor/autoload.php";
 // var_dump($_SERVER);
 // dump($_SERVER); // on peut se servir de cette fonction car on l'a installé grace à composer, et require grace à autoload !
 
@@ -11,10 +11,10 @@ require __DIR__.'/../vendor/autoload.php';
 $currentUrl = (isset($_GET['url'])) ? $_GET['url'] : '/';
 
 // 2 - inclure les controllers
-require __DIR__.'/../app/controllers/MainController.class.php';
-require __DIR__.'/../app/controllers/ProductController.class.php';
-require __DIR__.'/../app/controllers/CartController.class.php';
-require __DIR__.'/../app/controllers/ErrorController.class.php';
+require __DIR__."/../app/controllers/MainController.class.php";
+require __DIR__."/../app/controllers/ProductController.class.php";
+require __DIR__."/../app/controllers/CartController.class.php";
+require __DIR__."/../app/controllers/ErrorController.class.php";
 
 
 // 3 - faire le routage ! c'est à dire appeler la bonne méthode sur le bon controller en fonction de l'url ciblée

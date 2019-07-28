@@ -1,6 +1,6 @@
 <?php $publicLink = $_SERVER["BASE_URI"]; 
 //dump($_SERVER);
-?>  <!-- = S05-atelier-bidule/public -->
+?>  
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -40,17 +40,17 @@
     <nav class="navbar navbar-expand-lg navbar-sticky navbar-airy navbar-light">
       <div class="container-fluid">
         <!-- Navbar Header  -->
-        <a href="index.html" class="navbar-brand">oShop</a>
+        <a href="<?= $publicLink ?>" class="navbar-brand">oShop</a>
         <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
           aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
         <!-- Navbar Collapse -->
         <div id="navbarCollapse" class="collapse navbar-collapse">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a href="index.html" class="nav-link active">Home</a>
+              <a href="index.php" class="nav-link active">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Produits</a>
+              <a href="<?= $publicLink ?>/produits/categorie/1" class="nav-link">Produits</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link">Boutique</a>
@@ -75,6 +75,14 @@
               <a href="#" class="navbar-icon-link"><i class="fa fa-user"></i></a>
             </div>
             <!-- Cart Dropdown TODO -->
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i></a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">item 1</a>
+                <a class="dropdown-item" href="#">item 2</a>
+                <a class="dropdown-item" href="#">item 3</a>
+              </div>                      
+            </div>
           </div>
         </div>
       </div>
